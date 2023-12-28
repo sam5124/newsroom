@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sam5124.github.io/newsroom/'
 languageCode = 'en-us'
 publishDir="docs"
 theme = 'ananke'
