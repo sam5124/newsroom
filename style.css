@@ -1,0 +1,22 @@
+/* 导航栏样式 */
+nav {
+  background-color: #333; /* 示例颜色 */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff; /* 白色 */
+  text-decoration: none; /* 移除下划线 */
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 4px; /* 可选，为链接添加圆角 */
+}
+
+/* 内容区域样式 */
+div {
+  background-color: #eee; /* 示例颜色 */
+  padding: 20px;
+}

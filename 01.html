@@ -5,33 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samli</title>
+
+
+    <style>
+        body {
+            background-image: linear-gradient(to right, #206fbd, #00BFFF);
+
+        }
+
+        .note {
+            text-indent: em;
+        }
+
+        #uni {
+            color: rgb(99, 25, 169);
+            margin-top: 200px;
+        }
+
+        a:link {
+            color: brown;
+        }
+
+        a:visited {
+            color: bisque;
+
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            p {
+                font-family: 'Times New Roman', Times, serif
+            }
+
+            h1+ul {
+                color: blanchedalmond;
+            }
+
+            padding: 10px;
+            .container {
+  display: flex;
+}
+
+    </style>
+
 </head>
-<link rel="style" href="main.css">
+
+<link rel="stylesheet" href="styles.css">
 
 <body>
     <div>
-        <p>
-        <h1 style="color: aqua;">&emsp;&emsp;这是samli的第一个网页</h1><br>
+        <display>
 
-        <h2 style=" color: blue;">这是samli的第一个网页</h2><br>
-        <h3>&emsp;&emsp;这是samli的第一个网页</h3><br>
+
+        </display>
+
+        <p>
+        <h1>奥本海默</h1>
+        <h2>美国2023年克里斯托弗·诺兰自编自导的电影</h2>
+        <h3 class="note">samli的第一个网页</h3>
         </p>
 
     </div>
     <div>
-        <table border="1">
-            <tr>
-                <td>1</td>
-                <td>3</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>4</td>
-                <td>6</td>
-            </tr>
-        </table>
-
 
     </div>
     <div>
@@ -44,14 +83,19 @@
     <h2 style="color: bisque;">
         <p class="right-align" style="margin-top: -350px;margin-left: 500px;">Luzhou</p>
     </h2>
-    <iframe src="https://j.map.baidu.com/f3/3FYK"
+    <iframe
+        src="https://baike.baidu.com/lemmagraph/graphview?lemmaId=58802734&featureId=a8faef49686e3a27fab12732&classify=teleplay&fromModule=lemma_graph-tree"
         style="height: 500px;width: 500px;margin-left: 500px;margin-top: -10px;"></iframe><br><br><br>
-    <form action="https://search.douban.com/movie/subject_search?&cat=1002" method="get" style="margin-top: -250px;" target="_blank">
+    <form action="https://search.douban.com/movie/subject_search?&cat=1002" method="get" style="margin-top: -250px;"
+        target="_blank">
         <label>&emsp;&emsp;搜索框:<input type="search" name="search_text" /></label>
         <input type="submit" value="豆瓣电影搜索" />
     </form>
+    <p id="uni"><a href="https://map.baidu.com/@11757234,3903523,13z">百度地图</a> 浏览地图、搜索地点、查询公交驾车线路、查看实时路况，您的出行指南、生活助手。.
+        提供地铁线路图浏览，乘车方案查询，以及准确的票价和时间信息。.</p>
 
 
 </body>
+
 
 </html>
